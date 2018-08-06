@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{D50DC748-F312-4097-AD86-45DDDC38C0E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinet", "Clinet\Clinet.csproj", "{720B673F-7CFC-4537-839C-5C606D912936}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D50DC748-F312-4097-AD86-45DDDC38C0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50DC748-F312-4097-AD86-45DDDC38C0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50DC748-F312-4097-AD86-45DDDC38C0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50DC748-F312-4097-AD86-45DDDC38C0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720B673F-7CFC-4537-839C-5C606D912936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720B673F-7CFC-4537-839C-5C606D912936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720B673F-7CFC-4537-839C-5C606D912936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720B673F-7CFC-4537-839C-5C606D912936}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8380E324-8472-415F-9D72-CCD872EC8F58}
+	EndGlobalSection
+EndGlobal
