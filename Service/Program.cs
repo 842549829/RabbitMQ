@@ -13,16 +13,29 @@ namespace Service
         /// <summary>
         /// 连接配置
         /// </summary>
+        //private static readonly ConnectionFactory RabbitMqFactory = new
+        //    ConnectionFactory
+        //    {
+        //        UserName = ConnectionFactory.DefaultUser,
+        //        Password = ConnectionFactory.DefaultPass,
+        //        Port = 5672,
+        //        VirtualHost = ConnectionFactory.DefaultVHost,
+        //        HostName = "192.168.21.199", //"localhost",
+        //        Protocol = Protocols.DefaultProtocol
+        //    };
+
+
         private static readonly ConnectionFactory RabbitMqFactory = new
             ConnectionFactory
             {
-                UserName = ConnectionFactory.DefaultUser,
-                Password = ConnectionFactory.DefaultPass,
+                UserName = "rootsa",
+                Password = "rootsa",
                 Port = 5672,
-                VirtualHost = ConnectionFactory.DefaultVHost,
-                HostName = "192.168.21.199", //"localhost",
+                VirtualHost = "OrderQueue",
+                HostName = "192.168.21.199", //"localhost"
                 Protocol = Protocols.DefaultProtocol
             };
+
 
         /// <summary>
         /// 路由名称
