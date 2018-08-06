@@ -8,6 +8,7 @@ namespace RabbitMQUtility.RabbitMqClient
 {
     /// <summary>
     /// 表示RabbitMQ客户端组件。
+    /// https://blog.csdn.net/wangqingpei557/article/details/47864761
     /// </summary>
     public class RabbitMqClient : IRabbitMqClient
     {
